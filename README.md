@@ -1,18 +1,28 @@
-# folder_locker
+🚀 **Folder Locker - Flutter Windows App**
 
-A new Flutter project.
+Folder Locker is a Flutter-based Windows application that securely locks and unlocks folders using Triple DES encryption. It integrates with a Node.js backend for authentication and folder management.
 
-## Getting Started
+## ⚡ Getting Started
+Follow these steps to set up and run the project locally:
 
-This project is a starting point for a Flutter application.
+### 🔹 Step 1: Set Up the Backend
+Before running Folder Locker, ensure the backend is set up correctly. Follow the instructions in the [Folder Lock Backend Repository](https://github.com/project-hub-one/folder-lock-backend.git).
 
-A few resources to get you started if this is your first Flutter project:
+### 🔹 Step 2: Clone the Repository
+```sh
+git clone https://github.com/project-hub-one/folder_locker.git
+cd folder_locker
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔹 Step 3: Install Dependencies
+```sh
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-flutter clean
+### 🔹 Step 4: Run the App
+```sh
 flutter run -d windows
+```
+
+🚀 **Secure. Lock. Manage.**
+
